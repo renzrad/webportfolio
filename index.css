@@ -14,7 +14,7 @@
 body{
 	background-image: url(images/matrix.jpg);
 	background-position: center;
-	background-size: 300vh;
+	background-size: 200vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -26,7 +26,8 @@ body{
 }
 
 #navbar{
-	background-color: #22b455;
+	/*background-color: #22b455;*/
+	background-color: rgba(	34, 180, 85, .8);
 	border: 2px solid black;
 }
 
@@ -49,7 +50,6 @@ main{
 
 #about{
 	height: 100vh;
-	
 	color: #92e5a1;
 	
 }
@@ -59,6 +59,10 @@ main{
 	color: #92e5a1;
 	background-color: #204829;
 	border-radius: 100px;
+}
+
+.wlogo{
+	height: 150px;
 }
 
 #gallery{
